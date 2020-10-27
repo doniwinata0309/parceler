@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>parceler</artifactId>
-    <version>1.1.12-SNAPSHOT</version>
+    <version>1.1.14-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Parceler</name>
@@ -11,7 +11,7 @@
     <parent>
         <groupId>org.parceler</groupId>
         <artifactId>parceler-project</artifactId>
-        <version>1.1.12-SNAPSHOT</version>
+        <version>1.1.14-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.androidtransfuse</groupId>
             <artifactId>transfuse-bootstrap</artifactId>
-            <version>0.3.0-beta-12</version>
+            <version>0.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.android</groupId>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -165,7 +165,7 @@
                     <docletArtifact>
                         <groupId>org.asciidoctor</groupId>
                         <artifactId>asciidoclet</artifactId>
-                        <version>1.5.2</version>
+                        <version>1.5.6</version>
                     </docletArtifact>
                     <linksource>true</linksource>
                 </configuration>
